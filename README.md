@@ -23,7 +23,7 @@
 
 !wget "https://rusvectores.org/static/models/rusvectores4/fasttext/araneum_none_fasttextcbow_300_5_2018.tgz"
 
-!gunzip -c araneum_none_fasttextcbow_300_5_2018.tgz | tar xvf -
+tar zxvf araneum_none_fasttextcbow_300_5_2018.tgz
 
 2) из директории hw_4 в терминале запустить python task_1.py, а потом python task_2.py
 3) в обоих случаях программа попросит вас указать путь до папки, где лежит корпус на вашем компьютере (напр. /Users/kseniapetuhova/Desktop/hw_4)
