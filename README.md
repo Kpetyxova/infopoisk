@@ -42,6 +42,7 @@ tar zxvf araneum_none_fasttextcbow_300_5_2018.tgz
 3) из директории проекта запустить в терминале следующие команды:
 
 pipenv shell
+
 streamlit run main.py
 
 Ссылка на поисковик: http://172.20.10.2:8501
